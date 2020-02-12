@@ -1,0 +1,14 @@
+ [SignIn] Exception Occurred : Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="userNm"]"}
+  (Session info: chrome=79.0.3945.130)
+
+SIGN-IN TEST START
+ [Admin Inquiry Test] Exception Occurred : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tbCmpnyList"]/tbody/tr[2]/td[1]"}
+  (Session info: chrome=79.0.3945.130)
+ 
+ [Inquiry Form Test] Exception Occurred : Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="adminPage"]"}
+  (Session info: chrome=79.0.3945.130)
+ 
+NEW INQUIRY FORM TEST START
+
+#1. admin page에서 inquiry product 삭제 시 그걸 포함하고 있던 inquiry를 클릭하면 오류발생
+

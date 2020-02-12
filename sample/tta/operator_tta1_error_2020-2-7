@@ -1,0 +1,59 @@
+
+ [Sales] Exception Occurred : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type="search"]"}
+  (Session info: chrome=79.0.3945.130)
+
+[SALES TEST START] HTTPError code is 401
+SALES TEST START
+[SALES-DETAILS TEST START] HTTPError code is 401
+SALES-DETAILS TEST START
+ [SalesRegister] Exception Occurred : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="row"]/div[@class="col"]/button"}
+  (Session info: chrome=79.0.3945.130)
+
+[SALES-REGISTER TEST START] HTTPError code is 401
+SALES-REGISTER TEST START
+ [SalesRegisterBack] Exception Occurred : Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="row"]/div[@class="col"]/button"}
+  (Session info: chrome=79.0.3945.130)
+
+[SALES-REGISTER-BACK TEST START] HTTPError code is 401
+SALES-REGISTER-BACK TEST START
+[SALES-MODIFY TEST START] HTTPError code is 401
+SALES-MODIFY TEST START
+[SALES-DELETE TEST START] HTTPError code is 401
+SALES-DELETE TEST START
+ [AdminNotice] Exception Occurred : Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="userDropdown"]"}
+  (Session info: chrome=79.0.3945.130)
+
+[ADMIN NOTICE TEST START] HTTPError code is 401
+ADMIN NOTICE TEST START
+ [AdminNoticeRegister] Exception Occurred : Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div[2]/div[1]/div/button"}
+  (Session info: chrome=79.0.3945.130)
+
+[ADMIN NOTICE REGISTER TEST START] HTTPError code is 401
+ADMIN NOTICE REGISTER TEST START
+[ADMIN NOTICE MODIFY TEST START] HTTPError code is 401
+[ADMIN NOTICE DELETE TEST START] HTTPError code is 401
+[NOTICE-DETAIL-ADMIN TEST START] HTTPError code is 401
+NOTICE-DETAIL-ADMIN TEST START
+ Exception Occurred : Message: no such element: Unable to locate element: {"method":"link text","selector":"Home"}
+  (Session info: chrome=79.0.3945.130)
+
+ [Ref] Exception Occurred : Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="userDropdown"]"}
+  (Session info: chrome=79.0.3945.130)
+
+[ADMIN-REF TEST START] HTTPError code is 401
+ADMIN-REF TEST START
+ [RefRegister] Exception Occurred : Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[2]/div[2]/div[1]/div/button"}
+  (Session info: chrome=79.0.3945.130)
+
+[ADMIN-REF-REGISTER TEST START] HTTPError code is 401
+ADMIN-REF-REGISTER TEST START
+[ADMIN-REF-MODIFY TEST START] HTTPError code is 401
+[ADMIN-REF-DELETE TEST START] HTTPError code is 401
+[REF-DETAIL-ADMIN TEST START] HTTPError code is 401
+REF-DETAIL-ADMIN TEST START
+ [HomeProduct] Exception Occurred : Message: no such element: Unable to locate element: {"method":"link text","selector":"Product"}
+  (Session info: chrome=79.0.3945.130)
+
+[PRODUCT-HOME TEST START] HTTPError code is 401
+PRODUCT-HOME TEST START
+ [HomeProductRegister] Exception Occurred : 'NoneType' object has no attribute 'click'

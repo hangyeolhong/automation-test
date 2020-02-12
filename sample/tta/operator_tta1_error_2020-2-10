@@ -1,0 +1,20 @@
+#1. admin notice detail, 홈페이지 notice detail에서 첨부파일 다운로드하려고 할 때
+[Admin Notice Detail ERROR] Whitelabel Error Page URL [file:/app/pnpsafety/files/noticeDoc/fam.png] cannot be resolved in the file system for checking its content length
+[Admin Notice Detail ERROR] Whitelabel Error Page URL [file:/app/pnpsafety/files/noticeDoc/fam.png] cannot be resolved in the file system for checking its content length
+[Admin Notice Detail ERROR] Whitelabel Error Page URL [file:/app/pnpsafety/files/noticeDoc/fam.png] cannot be resolved in the file system for checking its content length
+[Admin Notice Detail ERROR] Whitelabel Error Page URL [file:/app/pnpsafety/files/noticeDoc/fam.png] cannot be resolved in the file system for checking its content length
+[Admin Notice Detail ERROR] Whitelabel Error Page URL [file:/app/pnpsafety/files/noticeDoc/Montserrat-Black.ttf] cannot be resolved in the file system for checking its content length
+[Admin Notice Detail ERROR] Whitelabel Error Page URL [file:/app/pnpsafety/files/noticeDoc/Montserrat-BlackItalic.ttf] cannot be resolved in the file system for checking its content length
+[Admin Notice Detail ERROR] Whitelabel Error Page URL [file:/app/pnpsafety/files/noticeDoc/Montserrat-Bold.ttf] cannot be resolved in the file system for checking its content length
+[Admin Notice Detail ERROR] Whitelabel Error Page URL [file:/app/pnpsafety/files/noticeDoc/Montserrat-LightItalic.ttf] cannot be resolved in the file system for checking its content length
+
+
+#2. admin page에서 삭제된 inquiry item을 포함한 inquiry를 클릭했을 때
+NEW INQUIRY TEST START
+{"status":"INTERNAL_SERVER_ERROR","timestamp":"10-02-2020 05:05:14","message":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27","debugMessage":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27"}
+
+{"status":"INTERNAL_SERVER_ERROR","timestamp":"10-02-2020 05:06:17","message":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27","debugMessage":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27"}
+{"status":"INTERNAL_SERVER_ERROR","timestamp":"10-02-2020 05:06:22","message":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27","debugMessage":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27"}
+{"status":"INTERNAL_SERVER_ERROR","timestamp":"10-02-2020 05:06:26","message":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27","debugMessage":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27"}
+{"status":"INTERNAL_SERVER_ERROR","timestamp":"10-02-2020 05:06:31","message":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27","debugMessage":"Unable to find com.pnpsafety.domain.InquiryProd with id 27; nested exception is javax.persistence.EntityNotFoundException: Unable to find com.pnpsafety.domain.InquiryProd with id 27"}
+ [Inquiry Detail] Exception Occurred : list index out of range

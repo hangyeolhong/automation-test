@@ -1,0 +1,20 @@
+
+#1. project register & modify할 때 날짜를 넣기만 하면 이렇게 뜸 (날짜 하나도 안 넣으면 오류 안남)
+{"status":"BAD_REQUEST","timestamp":"11-02-2020 01:33:08","message":"org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'salesOptnt' on field 'salesOptntStartDt': rejected value [2020-02-02]; codes [typeMismatch.salesOptnt.salesOptntStartDt,typeMismatch.salesOptntStartDt,typeMismatch.java.sql.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [salesOptnt.salesOptntStartDt,salesOptntStartDt]; arguments []; default message [salesOptntStartDt]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.sql.Date' for property 'salesOptntStartDt'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.sql.Date] for value '2020-02-02'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.util.Date] to type [@org.springframework.format.annotation.DateTimeFormat java.sql.Date]]","debugMessage":"org.springframework.validation.BeanPropertyBindingResult: 1 errors\nField error in object 'salesOptnt' on field 'salesOptntStartDt': rejected value [2020-02-02]; codes [typeMismatch.salesOptnt.salesOptntStartDt,typeMismatch.salesOptntStartDt,typeMismatch.java.sql.Date,typeMismatch]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [salesOptnt.salesOptntStartDt,salesOptntStartDt]; arguments []; default message [salesOptntStartDt]]; default message [Failed to convert property value of type 'java.lang.String' to required type 'java.sql.Date' for property 'salesOptntStartDt'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [@org.springframework.format.annotation.DateTimeFormat java.sql.Date] for value '2020-02-02'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.util.Date] to type [@org.springframework.format.annotation.DateTimeFormat java.sql.Date]]"}
+    근데 estmRegister 페이지에서 newProject로 project register할 때는 날짜 넣어도 오류 안남
+
+#2. admin page - inquiry item 에서 견적서 상세보기 할 때
+    admin회사 것이 아니면 project명이 안 뜨고(blank로 뜸) select 목록에도 admin회사것만 뜬다
+
+#3. admin page - inquiry item - action에서 send mail 할 때
+    메일은 가는데 첨부파일이 안 보내진다,,
+
+#4. 딜러가 issue date를 임의로 설정하고 inquiry를 등록했지만,
+    Modify Inquiry 창에는 issue date가 오늘 날짜로 되어있음 (admin page에서도 같은 현상 발생)
+
+#5. 딜러가 issue date를 설정하지 않으면 1970년 1월 1일로 저장된다. (XXXX) 해결
+
+#6. estmRegister 페이지에서 invalid-feedback 문제 -> inquiry할때 적용되는것 (해결)
+
+#7. adminpage - inquiry form 에서 add line 할 때 이미 추가한 item을 또 추가하려하면 추가되지 않는데,
+    새로 그 페이지에 접속하면 이미 추가한 item을 중복해서 추가할 수 있다.
